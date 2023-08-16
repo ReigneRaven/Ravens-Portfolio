@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reigne Raven - Personal Portfolio</title>
+
+<!---favicon-->
+<link rel="shortcut icon" href="./assets/images/logo.svg" type="image/x-icon">
+
+<!---custom css link-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+<!---google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!---MAIN-->
+  <main>
+  <!---SIDEBAR-->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Reigne Raven Ramos" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Reigne Raven Ramos">Raven Ramos</h1>
+          <p class="title">Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a class="contact-link">repa.ramos.up@<br>phinmaed.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a class="contact-link">09985588761</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="1982-06-23">August 05, 2002</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>San Fabian, Pangasinan</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/reigneraven.ramos/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/rimuru_sama1004/?hl=en" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/ReigneRaven" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://gitlab.com/ReigneRaven" class="social-link">
+              <ion-icon name="logo-gitlab"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/reigne-raven-ramos-98a103253/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+  <!---main-content-->
+    <div class="main-content">
+
+    <!---NAVBAR-->
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!---ABOUT-->
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>Hello! I am a third-year BSIT student at the PHINMA University of Pangasinan, majoring in web development.</p>
+          <p>My goal is to develop captivating websites or applications that are functional and user-friendly. Furthermore, I learned through the years that adding one's personal style makes it unique as long as it's still eye-catching and easy to use.</p>
+        </section>
+
+      <!---service-->
+        <section class="service">
+          <h3 class="h3 service-title">Activities that I'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Drawing</h4>
+                <p class="service-item-text">I regularly sketch, especially in my leisure time, since I find it fascinating and it helps me become a better designer.</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development and design</h4>
+                <p class="service-item-text">I always tend to make websites with the thought that it should always be user-friendly and attractive.</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+                <p class="service-item-text">My skills are still lacking in this field, but I, along with some team members, managed to create a functional one before.</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+                <p class="service-item-text">I love to take high-quality photos of scenic places.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+      <!---Hobbies-->
+        <section class="hobbies">
+          <h3 class="h3 hobbies-title">Hobbies</h3>
+          <ul class="hobbies-list has-scrollbar">
+            
+            <li class="hobbies-item">
+              <div class="content-card" data-hobbies-item>
+                <figure class="hobbies-avatar-box">
+                  <img src="./assets/images/avatar-1.svg" alt="Playing the Piano" width="60" data-hobbies-avatar>
+                </figure>
+                <h4 class="h4 hobbies-item-title" data-hobbies-title>Playing the Piano</h4>
+                <div class="hobbies-text" data-hobbies-text>
+                  <p>I always loved music, which is why most of the time I would spend the day playing the piano.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="hobbies-item">
+              <div class="content-card" data-hobbies-item>
+                <figure class="hobbies-avatar-box">
+                  <img src="./assets/images/avatar-2.svg" alt="Playing Games" width="60" data-hobbies-avatar>
+                </figure>
+                <h4 class="h4 hobbies-item-title" data-hobbies-title>Playing Games</h4>
+                <div class="hobbies-text" data-hobbies-text>
+                  <p>I always find it exciting and fun to do, especially if it's a rhythm game.</p>
+                </div>
+              </div>
+            </li>
+        </section>
+
+      <!---Hobbies modal-->
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="hobbies-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Playing the Piano" width="80" data-modal-img>
+              </figure>
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Playing the Piano</h4>
+              <div data-modal-text>
+                <p>I always loved music, which is why most of the time I would spend the day playing the piano.</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+      <!--- IDE's-->
+        <section class="ide">
+          <h3 class="h3 ide-title">IDE's I've worked on</h3>
+          <ul class="ide-list has-scrollbar">
+
+            <li class="ide-item">
+              <a href="https://visualstudio.microsoft.com/downloads/">
+                <img src="./assets/images/logo-1-color.png" height="140" width="0" alt="ide logo">
+              </a>
+            </li>
+
+            <li class="ide-item">
+              <a href="https://visualstudio.microsoft.com/downloads/">
+                <img src="./assets/images/logo-2-color.png" height="140" width="20" alt="ide logo">
+              </a>
+            </li>
+
+            <li class="ide-item">
+              <a href="https://www.sublimetext.com/">
+                <img src="./assets/images/logo-3-color.png" height="140" width="20" alt="ide logo">
+              </a>
+            </li>
+
+            <li class="ide-item">
+              <a href="https://developer.android.com/studio">
+                <img src="./assets/images/logo-4-color.png" height="140" width="20" alt="ide logo">
+              </a>
+            </li>
+
+            <li class="ide-item">
+              <a href="https://www.eclipse.org/downloads/packages/">
+                <img src="./assets/images/logo-5-color.png" height="140" width="20" alt="ide logo">
+              </a>
+            </li>
+
+            <li class="ide-item">
+              <a href="https://developer.apple.com/xcode/resources/">
+                <img src="./assets/images/logo-6-color.png" height="140" width="20" alt="ide logo">
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+    <!---RESUME-->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Joyland School Inc.</h4>
+              <span>Highschool — 2019</span>
+              <p class="timeline-text">Graduated with High Honors <br>Best in Computer</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Joyland School Inc.</h4>
+              <span>Senior Highschool — 2021</span>
+              <p class="timeline-text">Graduated with High Honors</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">PHINMA University of Pangasinan</h4>
+              <span>2021 — Present</span>
+              <p class="timeline-text">Currently studying at UPANG as a third-year BSIT student majoring in web development</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Graphics Designer</h4>
+              <span>Present</span>
+              <p class="timeline-text">My goal is to continuously become better, thus during my free time, I strive to develop the abilities I still lack in this area.</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web designer and developer</h4>
+              <span>Present</span>
+              <p class="timeline-text">Since I started attending my university, I have learned that while designing and creating websites or applications, it is crucial to consider how numerous users would find them useful and practical.</p>
+            </li>
+          </ol>
+        </section>
+        
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+        <section class="service">
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/web-dev.svg" alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Design</h4>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/graphic-design.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic Design</h4>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/app-dev.svg" alt="mobile app icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile Development</h4>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/photoshop.svg" alt="camera icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photoshop</h4>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+    <!--- #PORTFOLIO-->
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/ReigneRaven/JeepCity">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Jeep City</h3>
+                <p class="project-category">A website containing information about the Jeepney routes and fares in Dagupan City</p>
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="D:\Files\Raven\School\3rd Year\ITE 301\P1\Project\Project\index (2).html">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Cite Events</h3>
+                <p class="project-category">It is a website about the past events held by the CITE Department</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="D:\Files\Raven\School\3rd Year\ITE 301\P1\Project\Photo Studio\photo-studio-project\index.html">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-3.png" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Photo Studio</h3>
+                <p class="project-category">A simple about a photo studio company</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!---CONTACT-->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=san fabian pangasinan&amp;t=h&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="https://formsubmit.co/repa.ramos.up@phinmaed.com" method="POST" class="form" data-form></form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input ></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn> 
+              <ion-icon name="paper-plane"></ion-icon>
+              <span><a href="https://formsubmit.co/repa.ramos.up@phinmaed.com">Send a Message</a></span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!---custom js link-->
+  <script src="./assets/js/script.js"></script>
+
+  <!--- ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
